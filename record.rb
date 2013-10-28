@@ -1,4 +1,4 @@
-######## VINYL ALBUMS #############
+######## STOCKS #############
 require 'rubygems'
 require 'sinatra'
 
