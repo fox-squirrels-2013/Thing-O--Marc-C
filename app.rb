@@ -1,6 +1,6 @@
 require 'sinatra'
 require 'active_record'
-require_relative './app/models/elephant'
+require_relative './app/models/stock'
 
 ActiveRecord::Base.establish_connection(adapter: 'postgresql')
 
