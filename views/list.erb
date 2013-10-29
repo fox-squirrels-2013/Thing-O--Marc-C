@@ -1,0 +1,13 @@
+<a href="/">Homepage</a>
+<h1> This is your list of stocks: </h1>
+
+<p>
+  <% @stocks.each do |stock| %> 
+    <%= "#{stock.id},  #{stock.name}, #{stock.price}, #{stock.sector}" %>
+    <a href="/stock/<%= stock.id %>">Edit</a>
+    <a href="/stock/<%= stock.id %>">Delete</a>
+    </br>
+  <% end %>
+</p>
+
+
