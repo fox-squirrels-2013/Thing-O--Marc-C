@@ -1,8 +1,8 @@
 require 'sinatra'
 require 'active_record'
-require_relative './app/models/elephant'
+require_relative './app/models/stock'
 
-ActiveRecord::Base.establish_connection(adapter: 'postgresql')
+ActiveRecord::Base.establish_connection(adapter: 'postgresql', database: 'thing_o_marc_dev')
 
 
 get '/' do
